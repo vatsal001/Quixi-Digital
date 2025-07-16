@@ -3,6 +3,7 @@ import AllRoute from "../router";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Cursor from "../../components/Cursor/Cursor";
+import WhatsAppChatButton from "../../components/ProjectSection/WhatsappChat";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <AllRoute />
       <ToastContainer />
       <Cursor />
+      <WhatsAppChatButton />
     </div>
   );
 };

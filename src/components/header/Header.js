@@ -52,13 +52,15 @@ const Header = (props) => {
                         <i className="ti-arrow-top-right"></i>
                       </Link>
                     </li>
-                    {/* <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
-                        <span>Bigbytech Softlabs</span>
-                        <i className="ti-arrow-top-right"></i>
-                      </Link>
-                     
-                    </li> */}
+                    <li className="menu-item-has-children">
+                      <a
+                        href="http://bigbytechsoftlabs.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        bigbytech Softlabs
+                      </a>
+                    </li>
                     <li>
                       <Link onClick={ClickHandler} to="/about">
                         About <i className="ti-arrow-top-right"></i>

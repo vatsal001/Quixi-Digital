@@ -34,7 +34,7 @@ const HomePage = () => {
       <FunFact />
       <AwardSection />
       <ProjecTitle hclass={"project-title section-padding pt-0"} />
-      <Testimonial hclass={"testimonial-section"} />
+      {/* <Testimonial hclass={"testimonial-section"} /> */}
       <MarqueeSectionS3 />
       {/* <TeamSection /> */}
       {/* <BlogSection hclass={"blog-section section-padding"} /> */}

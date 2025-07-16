@@ -72,25 +72,20 @@ const ServiceSection = (props) => {
               key={service.id || index}
             >
               <div
-                className={`service-card ${activeItem === service ? "active" : " item"}`}
+                className={`service-card ${
+                  activeItem === service ? "active" : " item"
+                }`}
                 onMouseEnter={() => handleHover(service)}
               >
                 <div className="text">
                   <span>{service.Subtitle}</span>
                   <h2>
-                    <Link
-                      onClick={ClickHandler}
-                      to={`/service-single/${service.slug}`}
-                    >
+                    <Link onClick={ClickHandler} to={`/service`}>
                       {service.title}
                     </Link>
                   </h2>
                 </div>
-                <Link
-                  onClick={ClickHandler}
-                  to={`/service-single/${service.slug}`}
-                  className="icon"
-                >
+                <Link onClick={ClickHandler} to={`/service`} className="icon">
                   <i className="ti-arrow-top-right"></i>
                 </Link>
                 {/* <div className="image">

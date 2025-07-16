@@ -1,7 +1,7 @@
 import pimg1 from "../images/Screenshot 2025-07-16 012924.png";
 import pimg2 from "../images/Screenshot 2025-07-16 013036.png";
 import pimg3 from "../images/Screenshot 2025-07-16 013138.png";
-import pimg4 from "../images/image.png";
+import pimg4 from "../images/Screenshot 2025-07-16 101517.png";
 import pimg5 from "../images/project/5.jpg";
 import pimg6 from "../images/project/6.jpg";
 import pimg7 from "../images/project/7.jpg";
@@ -28,6 +28,7 @@ const Projects = [
     date: "Feb 2024",
     location: "Austria",
   },
+
   {
     id: "2",
     title: "Jiaa Silver - Ecommerce Website Development",
