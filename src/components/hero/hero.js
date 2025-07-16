@@ -52,7 +52,7 @@ const Hero = () => {
                 Every
               </h2>
               <h2 className="normal scroll-text-animation">
-                Digital <img src={Slide1} alt="icon" />
+                Digital 
               </h2>
               <h2 className="text-stroke scroll-text-animation">
                 S<img src={Slide2} alt="text-icon" />

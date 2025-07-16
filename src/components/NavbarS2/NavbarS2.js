@@ -1,21 +1,21 @@
 import React from "react";
-import HeaderS2 from '../headerS2/HeaderS2';
+import HeaderS2 from "../header/Header";
 
 export default function NavbarS2(props) {
-    const [scroll, setScroll] = React.useState(0);
+  const [scroll, setScroll] = React.useState(0);
 
-    const handleScroll = () => setScroll(document.documentElement.scrollTop);
+  const handleScroll = () => setScroll(document.documentElement.scrollTop);
 
-    React.useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-    const className = scroll > 80 ? "fixed-navbar active" : "fixed-navbar";
+  const className = scroll > 80 ? "fixed-navbar active" : "fixed-navbar";
 
-    return (
-        <div className={className}>
-            <HeaderS2 hclass={props.hclass} Logo={props.Logo} />
-        </div>
-    );
+  return (
+    <div className={className}>
+      <HeaderS2 hclass={props.hclass} Logo={props.Logo} />
+    </div>
+  );
 }

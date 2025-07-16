@@ -30,7 +30,7 @@ const Projects = [
   },
   {
     id: "2",
-    title: "Ecommerce Website Development",
+    title: "Jiaa Silver - Ecommerce Website Development",
     title2: "Commercial",
     title3: "Architecture",
     subtitle: "KUALA LUMPUR, MALAYSIA",
@@ -42,7 +42,7 @@ const Projects = [
   },
   {
     id: "3",
-    title: "Social Media & Campaign Management",
+    title: "Vrindaara - Social Media & Campaign Management",
     title2: "Commercial",
     title3: "Architecture",
     subtitle: "KUALA LUMPUR, MALAYSIA",
@@ -54,7 +54,7 @@ const Projects = [
   },
   {
     id: "4",
-    title: "Business card design",
+    title: "JC Soni & Sons Jewels - Social Media & Performance Marketing",
     title2: "Commercial",
     title3: "Architecture",
     subtitle: "KUALA LUMPUR, MALAYSIA",

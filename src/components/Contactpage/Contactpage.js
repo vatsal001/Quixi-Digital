@@ -52,8 +52,9 @@ const Contactpage = () => {
                   <div className="office-info-text">
                     <h2>address line</h2>
                     <p>
-                      Bowery St, New York, 37 USA
-                      <br /> NY 10013,USA
+                      09/S One Commercial Space, Shayona City, Maharana Pratap
+                      Rd,Ghatlodiya
+                      <br /> Ahmedabad, Gujarat 380061
                     </p>
                   </div>
                 </div>
@@ -67,10 +68,7 @@ const Contactpage = () => {
                   </div>
                   <div className="office-info-text">
                     <h2>Phone Number</h2>
-                    <p>
-                      +1255 - 568 - 6523 4374-221 <br />
-                      +1255 - 568 - 6523
-                    </p>
+                    <p>+91 88490 62703  </p>
                   </div>
                 </div>
               </div>
@@ -84,7 +82,7 @@ const Contactpage = () => {
                   <div className="office-info-text">
                     <h2>Address</h2>
                     <p>
-                      contact@Quixi Digital.com <br /> info@Quixi Digital.com
+                      official@quixidigital.com <br /> quixidigitalmarketing@gmail.com
                     </p>
                   </div>
                 </div>
@@ -97,8 +95,7 @@ const Contactpage = () => {
                 <div className="contact-left">
                   <h2>Get in touch</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    mattis faucibus odio feugiat arc dolor.
+                    Let’s Build Something Bold Together
                   </p>
                   <img className="image" src={Shape} alt="" />
                 </div>

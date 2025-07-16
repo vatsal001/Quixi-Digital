@@ -47,7 +47,7 @@ const Header = (props) => {
                   </button>
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
+                      <Link onClick={ClickHandler} to="/">
                         <span>Quixi Digital </span>
                         <i className="ti-arrow-top-right"></i>
                       </Link>
@@ -80,11 +80,17 @@ const Header = (props) => {
                         About <i className="ti-arrow-top-right"></i>
                       </Link>
                     </li>
+                    <li>
+                      <Link onClick={ClickHandler} to="/clients">
+                        Clients <i className="ti-arrow-top-right"></i>
+                      </Link>
+                    </li>
+
                     <li className="menu-item-has-children">
                       <Link onClick={ClickHandler} to="#">
                         Services <i className="ti-arrow-top-right"></i>
                       </Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link onClick={ClickHandler} to="/service">
                             Service
@@ -98,10 +104,10 @@ const Header = (props) => {
                             Service Single
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
+                      <Link onClick={ClickHandler} to="/Project2">
                         Portfolio <i className="ti-arrow-top-right"></i>
                       </Link>
                       {/* <ul className="sub-menu">
