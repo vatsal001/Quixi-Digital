@@ -5,7 +5,7 @@ import BlogList from "../../components/BlogList/BlogList";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 
 const BlogPage = () => {
   return (

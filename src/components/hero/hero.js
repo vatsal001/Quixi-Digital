@@ -61,7 +61,7 @@ const Hero = () => {
                 data-animation="fade_from_right"
               >
                 <p>
-                  Elevate your brand with the Agencyo Agency – everything from
+                  Elevate your brand with Quixi – everything from
                   strategy to advertising & scale.
                 </p>
               </div>

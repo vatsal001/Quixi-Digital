@@ -3,7 +3,7 @@ import NavbarS2 from "../../components/NavbarS2/NavbarS2";
 import Error from "../../components/404/404";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Footer from "../../components/footer/Footer";
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 const ErrorPage = () => {
   return (
     <Fragment>

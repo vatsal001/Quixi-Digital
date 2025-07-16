@@ -4,7 +4,7 @@ import NavbarS2 from "../../components/NavbarS2/NavbarS2";
 import Projects from "../../api/projects";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 import psi1 from "../../images/project-details/01.jpg";
 import psi2 from "../../images/project-details/02.jpg";
 import psingle1 from "../../images/project-details/03.jpg";

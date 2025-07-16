@@ -5,7 +5,7 @@ import BlogList from "../../components/BlogList/BlogList";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Footer from "../../components/footer/Footer";
 
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 
 const BlogPageFullwidth = () => {
   return (

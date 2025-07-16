@@ -5,7 +5,7 @@ import NavbarS2 from "../../components/NavbarS2/NavbarS2";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Contact from "./contact";
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 
 const TeamSinglePage = (props) => {
   const { slug } = useParams();

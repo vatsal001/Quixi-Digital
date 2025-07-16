@@ -12,7 +12,7 @@ import WorkMarqueeText from "../../components/WorkMarqueeText/WorkMarqueeText";
 import BlogSectionS3 from "../../components/BlogSectionS3/BlogSectionS3";
 import FooterS3 from "../../components/footerS3/FooterS3";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 import ContactSectionS2 from "../../components/ContactSectionS2/ContactSectionS2";
 import TestimonialS2 from "../../components/TestimonialS2/TestimonialS2";
 

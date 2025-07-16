@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Abouti from "../../images/btn-about.png";
-import logo from "../../images/logo-2.svg";
+import logo from "../../images/tasty. (1).png";
 
 const HeraderAbout = () => {
   const ClickHandler = () => {
