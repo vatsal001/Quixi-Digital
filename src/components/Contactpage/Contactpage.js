@@ -96,7 +96,7 @@ const Contactpage = () => {
                 <div className="contact-left">
                   <h2>Get in touch</h2>
                   <p>Let’s Build Something Bold Together</p>
-                  <img className="image" src={Shape} alt="" />
+                  {/* <img className="image" src={Shape} alt="" /> */}
                 </div>
               </div>
               <div className="col-lg-6 col-12">
