@@ -20,8 +20,8 @@ const AboutPage = () => {
       <FunFact />
       <AwardSection />
       <ProjecTitle hclass={"project-title section-padding pt-0"} />
-      <ProjectSectionS3 hclass={"project-section-s3 section-padding "} />
-      <TeamSectionS3 />
+      {/* <ProjectSectionS3 hclass={"project-section-s3 section-padding "} /> */}
+      {/* <TeamSectionS3 /> */}
       <Footer hclass={"footer-section section-padding pb-0"} />
       <Scrollbar />
     </Fragment>

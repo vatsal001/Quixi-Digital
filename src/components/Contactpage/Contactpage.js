@@ -12,7 +12,7 @@ const Contactpage = () => {
   const [validator] = useState(
     new SimpleReactValidator({
       className: "errorMessage",
-    }),
+    })
   );
   const changeHandler = (e) => {
     setForms({ ...forms, [e.target.name]: e.target.value });
@@ -130,7 +130,7 @@ const Contactpage = () => {
                       {validator.message(
                         "name",
                         forms.name,
-                        "required|alpha_space",
+                        "required|alpha_space"
                       )}
                     </div>
                     <div className="input-item">
@@ -149,7 +149,7 @@ const Contactpage = () => {
                       {validator.message(
                         "email",
                         forms.email,
-                        "required|email",
+                        "required|email"
                       )}
                     </div>
                     <div className="input-item">
@@ -167,7 +167,7 @@ const Contactpage = () => {
                       {validator.message(
                         "textarea",
                         forms.textarea,
-                        "required|min:10|max:500",
+                        "required|min:10|max:500"
                       )}
                     </div>
                     <div className="input-item submitbtn">
@@ -187,8 +187,10 @@ const Contactpage = () => {
         <h2 className="hidden">Contact map</h2>
         <div className="wpo-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"
-            allowFullScreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.5104056078944!2d72.53387477509357!3d23.07840437913474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e839a0ccfc777%3A0x44bf3d3d97d4ef43!2sQUIXI%20DIGITAL!5e0!3m2!1sen!2sin!4v1752645237773!5m2!1sen!2sin"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </section>
