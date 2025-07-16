@@ -6,15 +6,15 @@ import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "../../images/logo-2.svg";
 
-const ProjectPage = () => {
+const ProjectPage2 = () => {
   return (
     <Fragment>
       <NavbarS2 hclass={"wpo-site-header wpo-site-header-s4"} Logo={Logo} />
       <ProjectSection hclass={"project-section section-padding pb-0"} />
-      <ContactSectionS2 />
+
       <Footer hclass={"footer-section section-padding pb-0"} />
       <Scrollbar />
     </Fragment>
   );
 };
-export default ProjectPage;
+export default ProjectPage2;

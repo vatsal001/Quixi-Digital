@@ -45,10 +45,7 @@ const Footer = (props) => {
             <ul>
               {Services.slice(0, 5).map((service, Sitem) => (
                 <li key={Sitem}>
-                  <Link
-                    onClick={ClickHandler}
-                    to={`/service-single/${service.slug}`}
-                  >
+                  <Link onClick={ClickHandler} to={`/service`}>
                     {service.title}
                   </Link>
                 </li>
@@ -63,10 +60,7 @@ const Footer = (props) => {
             <ul>
               {Services.slice(0, 5).map((service, Sitem) => (
                 <li key={Sitem}>
-                  <Link
-                    onClick={ClickHandler}
-                    to={`/service-single/${service.slug}`}
-                  >
+                  <Link onClick={ClickHandler} to={`/`}>
                     {service.title}
                   </Link>
                 </li>
@@ -137,13 +131,8 @@ const Footer = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/project">
+                    <Link onClick={ClickHandler} to="/Project2">
                       Projects <i className="ti-arrow-top-right"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={ClickHandler} to="/blog">
-                      Blog <i className="ti-arrow-top-right"></i>
                     </Link>
                   </li>
                 </ul>

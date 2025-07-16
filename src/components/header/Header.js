@@ -52,29 +52,13 @@ const Header = (props) => {
                         <i className="ti-arrow-top-right"></i>
                       </Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link onClick={ClickHandler} to="#">
                         <span>Bigbytech Softlabs</span>
                         <i className="ti-arrow-top-right"></i>
                       </Link>
-                      {/* <ul className="sub-menu">
-                        <li>
-                          <Link onClick={ClickHandler} to="/home">
-                            Creative Agency
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/home-2">
-                            Business Agency
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} to="/home-3">
-                            Digital Agency
-                          </Link>
-                        </li>
-                      </ul> */}
-                    </li>
+                     
+                    </li> */}
                     <li>
                       <Link onClick={ClickHandler} to="/about">
                         About <i className="ti-arrow-top-right"></i>
@@ -87,7 +71,7 @@ const Header = (props) => {
                     </li>
 
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
+                      <Link onClick={ClickHandler} to="/service">
                         Services <i className="ti-arrow-top-right"></i>
                       </Link>
                       {/* <ul className="sub-menu">

@@ -57,7 +57,7 @@ const About = (props) => {
     };
 
     const scrollAnimations = document.querySelectorAll(
-      ".scroll-text-animation"
+      ".scroll-text-animation",
     );
 
     scrollAnimations.forEach((box) => {

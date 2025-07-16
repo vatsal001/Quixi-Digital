@@ -1,9 +1,3 @@
-import React from "react";
-
-import Award1 from "../../images/awards/1.jpg";
-import Award2 from "../../images/awards/2.jpg";
-import Award3 from "../../images/awards/3.jpg";
-import start from "../../images/awards/start.svg";
 import { Link } from "react-router-dom";
 
 const AwardSection = (props) => {

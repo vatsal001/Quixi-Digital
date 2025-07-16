@@ -221,4 +221,5 @@ const Projects = [
     location: "Austria",
   },
 ];
+
 export default Projects;

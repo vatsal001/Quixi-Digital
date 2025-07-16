@@ -12,7 +12,7 @@ const Contactpage = () => {
   const [validator] = useState(
     new SimpleReactValidator({
       className: "errorMessage",
-    })
+    }),
   );
   const changeHandler = (e) => {
     setForms({ ...forms, [e.target.name]: e.target.value });
@@ -68,7 +68,7 @@ const Contactpage = () => {
                   </div>
                   <div className="office-info-text">
                     <h2>Phone Number</h2>
-                    <p>+91 88490 62703  </p>
+                    <p>+91 88490 62703 </p>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,8 @@ const Contactpage = () => {
                   <div className="office-info-text">
                     <h2>Address</h2>
                     <p>
-                      official@quixidigital.com <br /> quixidigitalmarketing@gmail.com
+                      official@quixidigital.com <br />{" "}
+                      quixidigitalmarketing@gmail.com
                     </p>
                   </div>
                 </div>
@@ -94,9 +95,7 @@ const Contactpage = () => {
               <div className="col-lg-6 col-12">
                 <div className="contact-left">
                   <h2>Get in touch</h2>
-                  <p>
-                    Let’s Build Something Bold Together
-                  </p>
+                  <p>Let’s Build Something Bold Together</p>
                   <img className="image" src={Shape} alt="" />
                 </div>
               </div>
@@ -131,7 +130,7 @@ const Contactpage = () => {
                       {validator.message(
                         "name",
                         forms.name,
-                        "required|alpha_space"
+                        "required|alpha_space",
                       )}
                     </div>
                     <div className="input-item">
@@ -150,7 +149,7 @@ const Contactpage = () => {
                       {validator.message(
                         "email",
                         forms.email,
-                        "required|email"
+                        "required|email",
                       )}
                     </div>
                     <div className="input-item">
@@ -168,7 +167,7 @@ const Contactpage = () => {
                       {validator.message(
                         "textarea",
                         forms.textarea,
-                        "required|min:10|max:500"
+                        "required|min:10|max:500",
                       )}
                     </div>
                     <div className="input-item submitbtn">

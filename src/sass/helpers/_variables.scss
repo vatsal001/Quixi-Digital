@@ -1,32 +1,23 @@
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 // fonts
 $base-font-size: 15;
-$base-font: "Inter",
-sans-serif;
-$heading-font: "Plus Jakarta Sans",
-sans-serif;
-
-
+$base-font: "Inter", sans-serif;
+$heading-font: "Plus Jakarta Sans", sans-serif;
 
 // color
 $dark-gray: #121725; //
 $body-color: #687693;
 $white: #fff;
-$light: #BCC0CB; //
+$light: #bcc0cb; //
 $black: #000;
 $small-black: #333;
-$light-grern: #BAE900; //
+$light-grern: #bae900; //
 
-$theme-primary-color: #FD5B38; //
+$theme-primary-color: #fd5b38; //
 $theme-primary-color-s2: #071e93;
 $body-bg-color: #fff;
 $section-bg-color: #fafbfe;

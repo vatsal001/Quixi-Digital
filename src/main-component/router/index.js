@@ -18,7 +18,7 @@ import PricingPage from "../PricingPage/PricingPage";
 import ContactPage from "../ContactPage/ContactPage";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import Partners2 from "../../components/PartnerSection/Partners";
-import ProjectSection from "../../components/ProjectSection/ProjectSection2";
+import ProjectPage2 from "../ProjectPage/ProjectPage 2";
 
 const AllRoute = () => {
   return (
@@ -32,7 +32,7 @@ const AllRoute = () => {
           <Route path="about" element={<AboutPage />} />
           <Route path="clients" element={<Partners2 />} />
           <Route path="service" element={<ServicePages />} />
-          <Route path="Project2" element={<ProjectSection />} />
+          <Route path="Project2" element={<ProjectPage2 />} />
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
           <Route path="project" element={<ProjectPage />} />
           <Route path="project-single/:slug" element={<ProjectSingle />} />

@@ -14,7 +14,7 @@ export const wishListReducer = (state = init, action) => {
       ) {
         toast.error("Item Removed from Wishlist");
         const w_list = state.w_list.filter(
-          (product) => product.id !== productId
+          (product) => product.id !== productId,
         );
         return { ...state, w_list };
       }
@@ -31,7 +31,7 @@ export const wishListReducer = (state = init, action) => {
     case REMOVE_FROM_WISHLIST:
       const w_productId = action.id;
       const w_list = state.w_list.filter(
-        (product) => product.id !== w_productId
+        (product) => product.id !== w_productId,
       );
       return { ...state, w_list };
     default:

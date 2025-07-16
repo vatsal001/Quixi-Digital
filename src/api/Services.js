@@ -5,10 +5,6 @@ import simg4 from "../images/service/4.png";
 import simg5 from "../images/service/5.png";
 import simg6 from "../images/service/6.png";
 import simg7 from "../images/service/img-01.jpg";
-import simg8 from "../images/service/img-02.jpg";
-import simg9 from "../images/service/img-03.jpg";
-import simg10 from "../images/service/img-04.jpg";
-import simg11 from "../images/service/img-05.jpg";
 
 import sSimg1 from "../images/service-single/img-1.jpg";
 import sSimg2 from "../images/service-single/img-2.jpg";
@@ -17,13 +13,6 @@ import sSimg4 from "../images/service-single/img-4.jpg";
 import sSimg5 from "../images/service-single/img-5.jpg";
 import sSimg6 from "../images/service-single/img-6.jpg";
 import sSimg7 from "../images/service-single/img-7.jpg";
-import sSimg8 from "../images/service-single/img-8.jpg";
-import sSimg9 from "../images/service-single/img-9.jpg";
-import sSimg10 from "../images/service-single/img-10.jpg";
-import sSimg11 from "../images/service-single/img-11.jpg";
-import sSimg12 from "../images/service-single/img-12.jpg";
-import sSimg13 from "../images/service-single/img-13.jpg";
-import sSimg14 from "../images/service-single/img-14.jpg";
 
 const Services = [
   {

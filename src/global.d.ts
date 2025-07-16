@@ -1,1 +1,1 @@
-declare module 'reactjs-countdown';
+declare module "reactjs-countdown";
