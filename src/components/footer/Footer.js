@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Services from "../../api/Services";
-import FLoGo from "../../images/logo.svg";
+import FLoGo from "../../images/tasty.png";
 import Stert from "../../images/stert.svg";
 
 // images
@@ -109,7 +109,7 @@ const Footer = (props) => {
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-2 col-12">
               <Link onClick={ClickHandler} to="/" className="logo">
-                <span>QUIXI DIGITAL</span>
+                <img src={FLoGo} />
               </Link>
             </div>
             <div className="col-lg-10 col-md-10 col-12">

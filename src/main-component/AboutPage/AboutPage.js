@@ -9,7 +9,7 @@ import ProjectSectionS3 from "../../components/ProjectSectionS3/ProjectSectionS3
 import TeamSectionS3 from "../../components/TeamSectionS3/TeamSectionS3";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
-import Logo from "../../images/logo-2.svg";
+import Logo from "../../images/tasty. (1).png";
 
 const AboutPage = () => {
   return (

@@ -16,7 +16,10 @@ const Header = (props) => {
   return (
     <header id="header">
       <div className={props.hclass}>
-        <nav className="navigation navbar navbar-expand-lg navbar-light">
+        <nav
+          style={{ padding: "5px 0px" }}
+          className="navigation navbar navbar-expand-lg navbar-light"
+        >
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
@@ -31,9 +34,8 @@ const Header = (props) => {
                     className="navbar-brand"
                     to="/home"
                   >
-                    {/* <img src={props.Logo}
-                                        alt="" /> */}
-                    <span style={{ color: "white" }}>QUIXI DIGITAL</span>
+                    <img src={props.Logo} alt="" />
+                    {/* <span style={{ color: "white" }}>QUIXI DIGITAL</span> */}
                   </Link>
                 </div>
               </div>
